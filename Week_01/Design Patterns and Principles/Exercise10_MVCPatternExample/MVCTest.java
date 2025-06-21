@@ -1,7 +1,7 @@
 public class MVCTest {
     public static void main(String[] args) {
         // Create model
-        Student student = new Student("Alice", "S101", "A");
+        Student student = new Student("Robert", "S101", "A");
 
         // Create view
         StudentView view = new StudentView();
@@ -13,7 +13,7 @@ public class MVCTest {
         controller.updateView();
 
         // Update model via controller
-        controller.setStudentName("Bob");
+        controller.setStudentName("Leena");
         controller.setStudentGrade("B+");
 
         // Display updated data
